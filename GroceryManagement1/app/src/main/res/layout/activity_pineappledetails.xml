@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".pineappledetails">
+    <ImageView
+        android:id="@+id/banana"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/pineapple"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="description"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pineapple"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textColor="#c2c2c2"
+        />
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+
+        />
+
+</LinearLayout>

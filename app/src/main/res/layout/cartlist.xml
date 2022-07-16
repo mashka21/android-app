@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderSummary"
+        android:text="Drink Name"
+        android:textStyle="bold"
+        android:id="@+id/drinkNameinOrderSummary"
+        android:layout_marginLeft="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderSummary"
+        android:layout_toRightOf="@+id/drinkNameinOrderSummary"
+        android:text="x"
+        android:textStyle="bold"
+        android:id="@+id/quantityinOrderSummary"
+        android:layout_marginLeft="10dp"
+        tools:ignore="UnknownIdInLayout" />
+
+    <TextView
+        android:id="@+id/hasTopping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/drinkNameinOrderSummary"
+
+        android:layout_marginLeft="20dp"
+        android:text="has topping"
+        android:textStyle="italic" />
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="$10"
+        android:id="@+id/priceinOrderSummary"
+        android:layout_marginRight="10dp"/>
+
+
+
+</RelativeLayout>

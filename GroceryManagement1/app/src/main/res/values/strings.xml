@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">GroceryManagement1</string>
+
+
+    <string name="description">An avocado is a bright green fruit with a large pit and dark leathery skin. They’re also known as alligator pears or butter fruit. Avocados are a favorite of the produce section.
+        They’re the go-to ingredient for guacamole dips.</string>
+    <string name="banana">Banana is a fruit of an herbaceous flowering plant. The raw bananas used for cooking are known as plantains.
+        The colour of banana may be yellow, green, brown, purple or red..</string>
+
+
+    <string name="pineapple">pineapple, ( Ananas comosus ), perennial plant of the family Bromeliaceae and its edible fruit. Pineapple is native to tropical
+        and subtropical America and has been introduced elsewhere.</string>
+
+    <string name="apple">An apple is an edible fruit produced by an apple tree (Malus domestica). Apple trees are cultivated
+        worldwide and are the most widely grown species in the genus Malus..</string>
+
+    <string name="coconut">Coconut, fruit of the coconut palm, a tree of the palm family. It is one of the most important crops in the tropics.
+        The coconut has a thick fibrous husk surrounding a single-seeded nut. ..</string>
+
+    <string name="mango">Mangoes are a rich source of vitamins A, C, and D. The tree is evergreen,
+        often reaching 15–18 metres (50–60 feet) in height and attaining great age. .</string>
+
+    <string-array name="quantity">
+
+        <item>2kg 1000</item>
+        <item>5kg 2000</item>
+        <item>10kg 8000</item>
+        <item>15kg 12000</item>
+        <item>20kg 15000</item>
+
+
+    </string-array>
+</resources>
